@@ -9,6 +9,11 @@ appcompat = "1.6.1"
 material = "1.10.0"
 activity = "1.8.0"
 constraintlayout = "2.1.4"
+hilt = "2.48"
+kspCompilerVersion = "1.9.0-1.0.12"
+roomVersion = "2.6.1"
+coroutines = "1.7.3"
+lottie = "6.4.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -19,8 +24,18 @@ androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-ksp = { group = "com.google.dagger", name = "hilt-compiler", version.ref = "hilt" }
+room = { group = "androidx.room", name = "room-runtime", version.ref = "roomVersion" }
+room-ksp = { group = "androidx.room", name = "room-compiler", version.ref = "roomVersion" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
+coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kspCompilerPlugin = { id = "com.google.devtools.ksp", version.ref = "kspCompilerVersion" }
+hiltPlugin = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+
 
