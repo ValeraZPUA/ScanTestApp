@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">ScanTestApp</string>
+    <string name="scan">Scan</string>
+    <string name="device">Device</string>
+    <string name="show_you_all_info">Show you all info about phone</string>
 </resources>

@@ -14,6 +14,7 @@ kspCompilerVersion = "1.9.0-1.0.12"
 roomVersion = "2.6.1"
 coroutines = "1.7.3"
 lottie = "6.4.1"
+coordinatorlayout = "1.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -31,6 +32,7 @@ room-ksp = { group = "androidx.room", name = "room-compiler", version.ref = "roo
 room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
 coroutines = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
 lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottie" }
+androidx-coordinatorlayout = { group = "androidx.coordinatorlayout", name = "coordinatorlayout", version.ref = "coordinatorlayout" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
